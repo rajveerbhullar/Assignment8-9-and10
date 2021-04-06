@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firstpage</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/NewTheme.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="p1.css" />
+   
+</head>
+<body>
+    <div data-role = "page" id = "pageone" data-theme = "a">
+        <div data-role = "panel" id = "panel1">
+           <h2 id="ep">EPIC DREAMS</h2>
+           <p>Regret is most wrose than failure.</p>
+        </div>
+       
+        
+        <div data-role = "main" class = "ui-content">
+           <button class = "ui-btn">Button</button>
+           <p>Click here to open a panel<br>
+           <a href = "#panel1" class = "ui-btn ui-btn-inline">Click Here</a>
+           <p>List View:</p>
+           <ul data-role = "listview" data-autodividers = "true" id="r1">
+              <li><a href = "#">Canada</a></li>
+              <li><a href = "#">India</a></li>
+              <li><a href = "#">Brampton</a></li>
+           </ul><br>
+           <a href = "#popup_menu" data-rel = "popup" data-transition = "slidedown" 
+              class = "ui-btn ui-btn-inline ui-icon-home ui-btn-icon-left ui-btn-a" id="p2">
+              Select country</a>
+           
+           <div data-role = "popup" id = "popup_menu" data-theme = "a">
+              <ul data-role = "listview">
+                 <li data-role = "list-divider">Country List</li>
+                 <li><a href = "#">Canada</a></li>
+                 <li><a href = "#">Toronto</a></li>
+                 <li><a href = "#">India</a></li>
+                 <li><a href = "#">USA</a></li>
+              </ul>
+           </div>
+        </div>   
+    
+</body>
+</html>

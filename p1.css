@@ -1,0 +1,45 @@
+#p2{
+    left: 45%;
+    padding: 20;
+    color: yellowgreen;
+
+}
+#r1{
+    width: 45%;
+}
+#popup_menu{
+    left: 60%;
+    padding: 20;
+}
+#ep{
+    color: rgb(245, 143, 9);
+}
+#cs{
+    width: 25%;  
+}
+#fi{
+    width: 25%;  
+}
+body{
+    margin: 0%;
+    padding:80px 30px ;
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif ;
+      
+}
+#ad{
+    text-align: center;
+}
+#fm{
+    height:1200px ;
+    width:800px ;
+    background: #080c0c;
+    color:rgb(12, 179, 209);
+    left: 50%;
+    top:90%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    padding:80px 30px ;
+}

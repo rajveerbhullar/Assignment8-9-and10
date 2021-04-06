@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second page</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/NewTheme.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="p1.css" />
+   
+   <script>
+           
+</script>
+
+</head>
+<body>
+
+   
+    <form id="fm">
+        <h1 id="ad">Admission Form</h1>
+    
+        <div class="formdesign" id="name">
+            Name: <input type="text" name="fname"placeholder=Name ><b><span class="formerror"> </span></b>
+           </div><br>
+           <div class="formdesign" id = "faname">
+            Father Name: <input type="text" name = "fathername"placeholder=Fathername > <span class="formerror"> </span></b>
+         </div><br>
+        <h2>Select one</h2>
+       <fieldset data-role = "controlgroup" id="cs">
+          <input type = "checkbox" id = "checkbox 1" data-theme = "b" />
+          <label for = "checkbox 1">Graduate</label>
+
+          <input type = "checkbox" id = "checkbox 2" data-theme = "b" />
+          <label for = "checkbox 2">Undergraduate</label>
+
+          
+       </fieldset>
+       <h2>Gender</h2>
+       <fieldset data-role = "controlgroup" id="fi">
+          <input type = "radio" id = "radio1" name = "radio-choice-0" checked = "checked" />
+          <label for = "radio1">Male</label>
+
+          <input type = "radio" id = "radio2" name = "radio-choice-0" />
+          <label for = "radio2">Female</label>
+
+          <input type = "radio" id = "radio3" name = "radio-choice-0" />
+          <label for = "radio3">Others</label>
+       </fieldset>
+       
+     
+       <div class = "ui-field-contain">
+          <label>You are in canada:</label>
+          <select data-role = "flipswitch">
+             <option value = "off">Yes</option>
+             <option value = "on">No</option>
+          </select>
+       </div>
+       <h2>Select your city</h2>
+      <form class = "ui-filterable">
+         <input id = "autocomplete-input" data-type = "search" placeholder = "Search Cities" />
+      </form>
+      
+      <ul data-role = "listview" data-filter = "true" data-filter-reveal = "true" 
+         data-input = "#autocomplete-input">
+         <li><a href = "#">Toronto</a></li>
+         <li><a href = "#">Belgaum</a></li>
+         <li><a href = "#">Brampton</a></li>
+         <li><a href = "#">Windsor</a></li>
+         <li><a href = "#">London</a></li>
+         <li><a href = "#">Bolton</a></li>
+         <li><a href = "#">Scar</a></li>
+         <li><a href = "#">surry</a></li>
+         <li><a href = "#">Berry</a></li>
+         <li><a href = "#">Celedon</a></li>
+         <li><a href = "#">Missisuga</a></li>
+      </ul>
+    </form>   
+</body>
+</html>

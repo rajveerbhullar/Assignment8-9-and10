@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/NewTheme.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Third page</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"    rel = "stylesheet">    
+     
+    <script>
+        $(document).ready(function(){
+        $("#tabs").tabs({
+        event: "mouseover",
+        collapsible: true
+    });
+   
+});
+
+
+       
+    </script>
+    <style>
+        #mc{
+            padding: 25px;    
+            font-size: 25px;  
+            width: 500px;  
+            resize: horizontal;  
+            overflow: auto;  
+            align-items: center; 
+
+        }
+        #tb{
+            padding: 25px;    
+            font-size: 25px;  
+            width: 500px;  
+            resize: horizontal;  
+            overflow: auto;  
+            align-items: center; 
+
+
+        }
+        #pm{
+            padding: 25px;    
+            font-size: 25px;  
+            width: 500px;  
+            resize: horizontal;  
+            overflow: auto;  
+            align-items: center; 
+
+
+        }
+    </style>
+  
+   
+</head>
+<body>
+    <div>
+        <h1>
+            Cars 
+        </h1>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">muscle car</a></li>
+                <li><a href="#tabs-2">Luxury car</a></li>
+                <li><a href="#tabs-3">Top car</a></li>
+            </ul>
+            <div id="tabs-1">
+                <!-- the content -->
+                <img src="mucle.jpg" alt="" id="mc">
+               
+            </div>
+            <div id="tabs-2">
+                <!-- the content -->
+                <img src="pic2.jpg" alt="" id="pm">
+               
+            </div>
+            <div id="tabs-3">
+                <!-- the content -->
+                <img src="pic1.jpg" alt="" id="tb">
+               
+            </div>
+        </div>
+      
+        
+    
+</body>
+</html>
